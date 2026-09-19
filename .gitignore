@@ -1,0 +1,25 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Logs and temp
+*.log
+~$*
