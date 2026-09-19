@@ -97,5 +97,10 @@ datasets using relative paths.
 ## Screenshots
 
 Each module's `screenshot/` directory contains a PNG capture of the code and its output
-for every question and section, named after the module, lab, section/question number and
-the operation performed.
+for every question and section, named after the lab, the section/question number and the
+operation performed (the module is given by the containing folder).
+
+> **Note on filenames:** the screenshots deliberately omit the `CISC7204 Assgn01 Module NN`
+> prefix. Including it pushed several paths past 230 characters, which exceeds the Windows
+> `MAX_PATH` limit of 260 and breaks `git clone` in most locations. Paths are now all
+> under 193 characters.
